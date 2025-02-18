@@ -1,0 +1,84 @@
+[
+    {
+        "Name": "GunsAndBugs",
+        "Type": "VeryBad",
+        "Weight": 1,
+        "Color": "#FF0000",
+        "Descriptions": [
+            "They have the weapons!!!!",
+            "Infinite ammo but at what cost?"
+        ],
+        "Enabled": true,
+        "AddEventIfOnly": [],
+        "Items": {
+            "TransmuteAmount": [
+                0.01,
+                0.001,
+                0.01,
+                0.02
+            ],
+            "ScrapAmount": [
+                1,
+                0,
+                1,
+                1
+            ],
+            "ScrapValue": [
+                1,
+                0,
+                1,
+                1
+            ],
+            "Items": [
+                {
+                    "Name": "SlayerShotgun",
+                    "Rarity": 100
+                }
+            ]
+        },
+        "Enemies": [
+            {
+                "Name": "HoarderBug",
+                "InsideRarity": [
+                    12,
+                    1,
+                    12,
+                    30
+                ],
+                "OutsideRarity": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MinInside": [
+                    10,
+                    0.1,
+                    10,
+                    15
+                ],
+                "MaxInside": [
+                    15,
+                    0.2,
+                    15,
+                    32
+                ],
+                "MinOutside": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MaxOutside": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "EventsToSpawnWith": [
+            "Hell"
+        ]
+    }
+]
