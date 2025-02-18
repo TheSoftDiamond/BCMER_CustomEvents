@@ -1,0 +1,65 @@
+[
+	{
+		"Name": "Goku",
+        "Type": "VeryBad",
+        "Weight": 2,
+        "Color": "#800000",
+        "Descriptions": [
+			"Best Paired with Goku Mod",
+			"Hey its me Goku",
+			"It's the best day ever",
+			"Goku Day", "How to Goku",
+			"Neck Snapping Day",
+			"Your neck will snap today... But worse",
+			"You are feeling powerful today"
+        ],
+        "Enabled": true,
+		"AddEventIfOnly": [
+			"Vulf.GokuBracken"
+		],
+		"EventsToRemove": [
+			"Bracken"
+		],
+		"Enemies": [
+            {
+                "Name": "Flowerman",
+                "InsideRarity": [
+                    30,
+                    0.5,
+                    30,
+                    80
+                ],
+                "OutsideRarity": [
+                    33,
+                    0.7,
+                    33,
+                    100
+                ],
+                "MinInside": [
+                    1,
+                    0.05,
+                    1,
+                    4
+                ],
+                "MaxInside": [
+                    5,
+                    0.1,
+                    2,
+                    12
+                ],
+                "MinOutside": [
+                    1,
+                    0.02,
+                    2,
+                    6
+                ],
+                "MaxOutside": [
+                    6,
+                    0.08,
+                    5,
+                    12
+                ]
+            }
+        ]
+	} 
+]
