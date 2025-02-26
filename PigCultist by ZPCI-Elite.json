@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "PigCultist",
+        "Type": "Bad",
+        "Weight": 3,
+        "Color": "#FF0000",
+        "Descriptions": [
+            "Pig Cultists!"
+        ],
+        "Enabled": true,
+        "AddEventIfOnly": [
+"Nikki.SlaughterhouseScraps"
+  ],
+  "EventsToRemove": [
+"Masked"
+  ],
+        "Enemies": [
+            {
+                "Name": "NathanPlayerEnemy",
+                "InsideRarity": [10, 0.4, 10, 50],
+                "OutsideRarity": [5, 0.2, 5, 25],
+                "MinInside": [1, 0.05, 1, 6],
+                "MaxInside": [1, 0.07, 1, 8],
+                "MinOutside": [0, 0, 0, 0],
+                "MaxOutside": [0, 0, 0, 0]
+            }
+        ]
+    }
+]
