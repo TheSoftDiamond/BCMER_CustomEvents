@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "Knight",
+        "Type": "VeryBad",
+        "Weight": 1,
+        "Color": "#800000",
+        "Descriptions": [
+            "Knights!"
+        ],
+        "Enabled": true,
+        "AddEventIfOnly": [
+"dev.ladyalice.scarletmansion.basement"
+  ],
+  "EventsToRemove": [
+"Coilhead"
+  ],
+        "Enemies": [
+            {
+                "Name": "Knight",
+                "InsideRarity": [20, 0.8, 20, 100],
+                "OutsideRarity": [5, 0.2, 5, 25],
+                "MinInside": [2, 0.04, 2, 6],
+                "MaxInside": [2, 0.06, 2, 8],
+                "MinOutside": [0, 0.02, 0, 1],
+                "MaxOutside": [0, 0.03, 0, 3]
+            }
+        ]
+    }
+]
