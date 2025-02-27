@@ -1,3 +1,4 @@
+[
     {
         "Name": "Maid",
         "Type": "Bad",
@@ -8,11 +9,11 @@
         ],
         "Enabled": true,
         "AddEventIfOnly": [
-"dev.ladyalice.scarletmansion.basement"
-  ],
-  "EventsToRemove": [
-"Butlers"
-  ],
+            "dev.ladyalice.scarletmansion.basement"
+        ],
+        "EventsToRemove": [
+            "Butlers"
+        ],
         "Enemies": [
             {
                 "Name": "Maid",

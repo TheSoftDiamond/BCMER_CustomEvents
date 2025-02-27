@@ -1,0 +1,55 @@
+[
+    {
+        "Name": "SDMansionScrap",
+        "Type": "VeryGood",
+        "Weight": 2,
+        "Color": "#00FF00",
+        "Descriptions": [
+            "Crystals, Ritual Wands, and Snow Globes, Oh my!", 
+            "Anime in a globe", 
+            "Senses hostile souls", 
+            "Decorative crystals!"
+        ],
+        "Enabled": true,
+        "AddEventIfOnly": [
+            "dev.ladyalice.scarletmansion.basement"
+        ],
+        "EventsToRemove": [
+            "RealityShift"
+        ],
+        "Items": {
+            "TransmuteAmount": [
+                0.5,
+                0.08,
+                0.4,
+                0.99
+            ],
+            "ScrapAmount": [
+                1,
+                0.005,
+                1,
+                1.5
+            ],
+            "ScrapValue": [
+                1,
+                0,
+                1,
+                1
+            ],
+            "Items": [
+                {
+                    "Name": "FlandreCrystalItem",
+                    "Rarity": 25
+                },
+                {
+                    "Name": "Gohei",
+                    "Rarity": 25
+                },
+                {
+                    "Name": "ScarletSnowGlobe",
+                    "Rarity": 75
+                }
+            ]
+        }
+    }
+]
